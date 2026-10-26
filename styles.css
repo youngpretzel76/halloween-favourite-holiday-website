@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+html, body {
+    background-image: url('images/halloween.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    animation: fadeInPage 0.4s ease-out forwards;
+}
+
+.creepster {
+    font-family: "Creepster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Creepster", sans-serif;
+    text-align: center;
+    color: #d9770f;
+    -webkit-text-stroke: 0.5px #a516f2;
+}
+
+.cute {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px dashed #33044d;
+}
+
+p {
+    font-family: "Creepster", sans-serif;
+    text-align: center;
+    color: #eb9c49;
+    -webkit-text-stroke: 0.5px #a516f2;
+}
+
+.button {
+    display: block;
+    background-image: url("images/cute halloween.jpg");
+    background-position: center center;
+    font-family: "Creepster", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border: 4px solid #33044d;
+    border-radius: 10px;
+    height: 30%;
+}
+
+.button:hover {
+    border: 4px solid #33044d;
+    cursor: pointer;
+    box-shadow: 1px 10px 98px -4px #000000;
+    background-image: url("images/orange.png");
+    transition: background-image 0.3s;
+}
+
+.funsite {
+    display: block;
+    background-image: url("images/cute halloween.jpg");
+    background-position: center center;
+    font-family: "Creepster", sans-serif;
+    font-size: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 700px;
+    border: 4px solid #33044d;
+    border-radius: 500px;
+    padding: 15px 32px;
+    height: 30%;
+}
+
+.funsite:hover {
+    border: 4px solid #33044d;
+    cursor: pointer;
+    box-shadow: 1px 10px 98px -4px #000000;
+    background-image: url("images/orange.png");
+    transition: background-image 0.3s;
+}
+
+@keyframes fadeInPage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

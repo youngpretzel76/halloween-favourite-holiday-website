@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+html, body {
+    background-image: url("images/fun site.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.chewy {
+    font-family: "Chewy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Chewy", sans-serif;
+    text-align: left;
+    color: #e3cf6b;
+    -webkit-text-stroke: 0.5px #784911;
+}
+
+p {
+    font-family: "Chewy", sans-serif;
+    text-align: left;
+    color: #e3cf6b;
+    -webkit-text-stroke: 0.5px #784911;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    border: 4px dashed #e3cc96;
+}
+
+.blinkies {
+    display: block;
+    align-items: center;
+    gap: 2px;
+}
+
+.blinkies img {
+    width: fit-content;
+    height: fit-content;
+    border: 0.5px dashed #e3cc96;
+}
+
+.button:hover {
+    border: 4px solid #f7d885;
+    cursor: pointer;
+    box-shadow: 1px 10px 98px -4px #000000;
+    background-image: url("images/neon.png");
+    transition: background-image 0.3s;
+}
+
+.button {
+    display: block;
+    background-image: url("images/hi.jpg");
+    background-position: center center;
+    font-family: "Chewy", sans-serif;
+    margin-top: 1%;
+    border: 4px solid #f7d885;
+    border-radius: 10px;
+    height: 30%;
+}
